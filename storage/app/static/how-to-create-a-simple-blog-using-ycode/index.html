@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>How To Create a Simple Blog Using Ycode — The ycode Handbook</title>
+        <meta name="description" content="How To Create a Simple Blog Using Ycode">
+        <meta name="theme-color" content="00908F">
+        <script type="module" src="http://127.0.0.1:5173/@vite/client"></script><script type="module" src="http://127.0.0.1:5173/resources/js/site.js"></script><link rel="stylesheet" href="http://127.0.0.1:5173/resources/css/site.css" />
+    </head>
+    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
+        <nav class="flex items-center justify-between lg:justify-start flex-wrap py-10 max-w-5xl mx-auto">
+    <div class="text-md antialiased font-medium">
+        <a href="/" class="block text-xl lg:inline-block mr-12 font-black">The ycode Handbook</a>
+    </div>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 text-gray-800" x-bind:class="{'hidden': showMobileNav}" @click="showMobileNav = true">
+            <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Open Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+        </button>
+        <button class="items-center px-3 text-gray-800" x-bind:class="{'flex': showMobileNav, 'hidden': ! showMobileNav}" @click="showMobileNav = false" x-cloak>
+            <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Close Menu</title>
+                <path
+                    d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+        </button>
+    </div>
+    <div class="w-full lg:w-auto lg:flex items-center" @click.outside="showMobileNav = false" x-show="showMobileNav">
+        
+        <a href="/articles" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Articles
+        </a>
+        
+        <a href="/showcase" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Showcase
+        </a>
+        
+        <a href="/videos" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Videos
+        </a>
+        
+    </div>
+</nav>
+
+        <div class="max-w-5xl mx-auto relative mt-16 content">
+    <svg class="absolute text-gray-800 mt-4 top-0 left-0 w-20 h-20 hidden md:block" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Sidebar" transform="translate(-30.000000, -30.000000)"> <g id="Ycode"> <g transform="translate(30.000000, 30.000000)"> <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect> <path d="M11.4241533,0 L11.4241533,5.85877951 L6.024,8.978 L12.6155735,12.7868008 L10.951,13.749 L23.0465401,6.75101349 L23.0465401,12.6152717 L3.39516096,23.9856666 L3.3703726,24 L3.34318129,23.9827156 L0.96,22.4713365 L0.96,16.7616508 L3.36417551,18.1393242 L7.476,15.76 L0.96,11.9090099 L0.96,6.05375516 L11.4241533,0 Z" id="y-stroke" fill="#000000"></path> </g> </g> </g> </g> </svg>
+    <article class="lg:py-32 max-w-2xl mx-auto">
+        <h1>How To Create a Simple Blog Using Ycode</h1>
+        <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
+            Published
+            
+            on Nov 9, 2023
+        </div>
+        <div class="content">
+            <h2>Introduction:</h2>
+<p>In this step-by-step guide, we'll walk you through the process of creating a stunning blog using Ycode, the powerful web development platform. Whether you're a seasoned developer or just starting your journey, Ycode makes it easy to design and launch your own blog. Let's get&nbsp;started!</p>
+<h2>Step 1: Sign Up and Get&nbsp;Started</h2>
+<p>To create your blog with Ycode, you'll first need to sign up for an account. Once you've registered, you'll have access to an intuitive interface that simplifies the web development process. Ycode is designed to be user-friendly, so you can focus on your content without worrying about complex&nbsp;coding.</p>
+<h2>Step 2: Choose Your Blog&nbsp;Template</h2>
+<p>Ycode offers a variety of pre-designed blog templates to choose from. Select the one that best fits your blog's style and purpose. Whether you're into minimalism or a more vibrant design, you'll find a template that suits your&nbsp;needs.</p>
+<h2>Step 3: Customize Your&nbsp;Blog</h2>
+<p>Now comes the fun part: personalizing your blog. Ycode allows you to easily customize your blog's layout, fonts, colors, and more. You can create a unique online space that reflects your personality and&nbsp;brand.</p>
+<h2>Step 4: Create and Publish&nbsp;Content</h2>
+<p>With your blog set up, it's time to start creating content. Ycode's built-in content editor makes writing and formatting blog posts a breeze. You can add text, images, videos, and more with just a few clicks. Once your post is ready, hit &quot;Publish&quot; to share it with your&nbsp;audience.</p>
+<h2>Step 5: Engage with Your&nbsp;Readers</h2>
+<p>A successful blog is all about engagement. Ycode comes with tools for enabling comments and social sharing, making it easy for your readers to interact with your content. Foster a sense of community and encourage discussions on your&nbsp;blog.</p>
+<h2>Conclusion:</h2>
+<p>Creating a blog with Ycode is a straightforward process that doesn't require advanced technical skills. Whether you're blogging for fun or as part of your business, Ycode provides the tools you need to get your message out there. Start your blog today and share your unique voice with the&nbsp;world!</p>
+
+        </div>
+    </article>
+</div>
+
+        <nav class="flex items-center justify-between flex-wrap py-12 lg:py-24 max-w-5xl mx-auto">
+    <div class="text-sm">&copy; 2023 The ycode Handbook – Powered by <a href="https://statamic.com?ref=cool-writings" class="hover:text-teal">Statamic</a></div>
+    <div class="flex items-center">
+        
+    </div>
+</nav>
+
+    </body>
+</html>

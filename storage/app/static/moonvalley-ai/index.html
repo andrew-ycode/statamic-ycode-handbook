@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Moonvalley.ai — The ycode Handbook</title>
+        <meta name="description" content="Moonvalley.ai">
+        <meta name="theme-color" content="00908F">
+        <script type="module" src="http://127.0.0.1:5173/@vite/client"></script><script type="module" src="http://127.0.0.1:5173/resources/js/site.js"></script><link rel="stylesheet" href="http://127.0.0.1:5173/resources/css/site.css" />
+    </head>
+    <body class="bg-white font-sans leading-normal text-grey-800 px-4 sm:px-10" x-data="{ showMobileNav: false }">
+        <nav class="flex items-center justify-between lg:justify-start flex-wrap py-10 max-w-5xl mx-auto">
+    <div class="text-md antialiased font-medium">
+        <a href="/" class="block text-xl lg:inline-block mr-12 font-black">The ycode Handbook</a>
+    </div>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 text-gray-800" x-bind:class="{'hidden': showMobileNav}" @click="showMobileNav = true">
+            <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Open Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+        </button>
+        <button class="items-center px-3 text-gray-800" x-bind:class="{'flex': showMobileNav, 'hidden': ! showMobileNav}" @click="showMobileNav = false" x-cloak>
+            <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Close Menu</title>
+                <path
+                    d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+        </button>
+    </div>
+    <div class="w-full lg:w-auto lg:flex items-center" @click.outside="showMobileNav = false" x-show="showMobileNav">
+        
+        <a href="/articles" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Articles
+        </a>
+        
+        <a href="/showcase" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Showcase
+        </a>
+        
+        <a href="/videos" class="block  mt-4 lg:inline-block text-gray-600 hover:text-gray-800 lg:mt-0 mr-12">
+            Videos
+        </a>
+        
+    </div>
+</nav>
+
+        <div class="max-w-5xl mx-auto relative mt-16 content">
+    <svg class="absolute text-gray-800 mt-4 top-0 left-0 w-20 h-20 hidden md:block" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Sidebar" transform="translate(-30.000000, -30.000000)"> <g id="Ycode"> <g transform="translate(30.000000, 30.000000)"> <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect> <path d="M11.4241533,0 L11.4241533,5.85877951 L6.024,8.978 L12.6155735,12.7868008 L10.951,13.749 L23.0465401,6.75101349 L23.0465401,12.6152717 L3.39516096,23.9856666 L3.3703726,24 L3.34318129,23.9827156 L0.96,22.4713365 L0.96,16.7616508 L3.36417551,18.1393242 L7.476,15.76 L0.96,11.9090099 L0.96,6.05375516 L11.4241533,0 Z" id="y-stroke" fill="#000000"></path> </g> </g> </g> </g> </svg>
+    <article class="lg:py-32 max-w-2xl mx-auto">
+        <h1>Moonvalley.ai</h1>
+        <a href="https://moonvalley.ai/" target="_blank" class="bg-gray-800 inline-block text-sm uppercase tracking-widest text-white p-3 rounded-full no-underline cursor-pointer">
+          View Site 
+        </a>
+        <div>
+            <img src="/assets/content/moonvalleyscreenshot.jpg">
+        </div>
+        <div class="content">
+            <p>Moonvalley.ai is a landing page built with&nbsp;ycode.</p>
+
+        </div>
+    </article>
+</div>
+
+        <nav class="flex items-center justify-between flex-wrap py-12 lg:py-24 max-w-5xl mx-auto">
+    <div class="text-sm">&copy; 2023 The ycode Handbook – Powered by <a href="https://statamic.com?ref=cool-writings" class="hover:text-teal">Statamic</a></div>
+    <div class="flex items-center">
+        
+    </div>
+</nav>
+
+    </body>
+</html>

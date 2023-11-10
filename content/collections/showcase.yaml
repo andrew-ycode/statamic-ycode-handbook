@@ -1,0 +1,15 @@
+title: Showcase
+template: showcase/show
+layout: layout
+mount: 92ba9672-8594-474d-bdd9-35f8cb82db6a
+revisions: false
+route: '{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

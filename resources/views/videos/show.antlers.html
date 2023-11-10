@@ -1,0 +1,12 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    {{ svg src="/assets/site/ycode-logo" class="absolute text-gray-800 mt-4 top-0 left-0 w-20 h-20 hidden md:block" }}
+    <article class="lg:py-32 max-w-2xl mx-auto">
+        <h1>{{ title }}</h1>
+        <div class="mb-10">
+            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/{{ youtube_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="content">
+            {{ content | widont }}
+        </div>
+    </article>
+</div>

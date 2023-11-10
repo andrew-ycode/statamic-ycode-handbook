@@ -1,0 +1,15 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    {{ svg src="/assets/site/ycode-logo" class="absolute text-gray-800 mt-4 top-0 left-0 w-20 h-20 hidden md:block" }}
+    <article class="lg:py-32 max-w-2xl mx-auto">
+        <h1>{{ title }}</h1>
+        <a href="{{link_to_site}}" target="_blank" class="bg-gray-800 inline-block text-sm uppercase tracking-widest text-white p-3 rounded-full no-underline cursor-pointer">
+          View Site 
+        </a>
+        <div>
+            <img src="{{ screenshots[0] }}">
+        </div>
+        <div class="content">
+            {{ content | widont }}
+        </div>
+    </article>
+</div>
